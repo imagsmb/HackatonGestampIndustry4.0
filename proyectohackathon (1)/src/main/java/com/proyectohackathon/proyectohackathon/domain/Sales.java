@@ -16,7 +16,6 @@ import javax.validation.constraints.NotNull;
 @Document(collection = "sales")
 public class Sales {
     @Id
-    @Field("_id")
     private String id;
     @NotNull
     @NotBlank
